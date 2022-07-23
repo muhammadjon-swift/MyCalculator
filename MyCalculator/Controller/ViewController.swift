@@ -77,7 +77,7 @@ class ViewController: UIViewController {
     func pressEffect(_ sender: UIButton) {
         // Pressing Button effect
         sender.alpha = 0.6
-        // It's gonna delay                             0.5 seconds
+        // It's gonna delay                             0.1 seconds
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
             // And change it back to 100%
             sender.alpha = 1
